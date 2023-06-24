@@ -1,29 +1,31 @@
-.services-main-text{
-    font-size: 2.5rem;
+.profile-photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+.profile-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.btn-upload{
+    background-color: rgb(1, 59, 1);
+    height: fit-content !important;
+    border-radius: 100px;
+}
+.name-heading{
+    font-size: 1.4rem;
     font-weight: bold;
 }
-.quick-action-div{
-    width: 100%;
-    height: 140px;
-    background-color: rgb(22, 23, 22);
-    margin: auto;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.heading-profile-text{
+    font-size: 1.1rem;
+    font-weight: bold;
 }
-@media(max-width:900px){
-    .quick-action-div{
-        height: 200px;
-    }
+.heading-profile-text-two{
+    font-size: 0.8rem;
+    font-weight: light;
 }
-@media(max-width:500px){
-    .quick-action-div{
-        height: 110px !important;
-    }
-}
-
 
 
 
@@ -71,7 +73,7 @@ body .modal-sections{
     }
 }
 .modal-heading{
-    font-size: 1.8rem;
+    font-size: 1.5rem !important;
     font-weight: bold;
 }
 .form-control{
@@ -102,4 +104,29 @@ body .modal-sections{
 }
 .btn-submit{
     background-color: rgba(7, 186, 7, 0.406) !important;
+}
+
+
+.chat-image{
+    width: 100px;
+    height: 100px;
+}
+.chat-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.social-media-img{
+    width: 50px;
+    height: 50px;
+}
+.social-media-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col-for-social-media{
+    background-color: rgba(26, 26, 26, 0.806);
+    border-radius: 10px;
 }
